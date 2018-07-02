@@ -71,7 +71,7 @@ end
 
 def organize_schools (school_hash)
   require "pry"
-  binding.pry
+  # binding.pry
 new_hash = {}
 nyc = []
 sf = []
@@ -84,6 +84,7 @@ chicago = []
         sf << name
       elsif place.value = "Chicago"
         chicago << name
+binding.pry
       end
     end
   end
