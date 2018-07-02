@@ -81,14 +81,14 @@ chicago = []
     place.each do |location, city|
       if city.include?("NYC")
         nyc << name
-# binding.pry
       elsif city.include?("SF")
         sf << name
       elsif city.include?("Chicago")
         chicago << name
-# binding.pry
       end
     end
   end
-binding.pry
+new_hash["NYC"]=nyc
+new_hash["SF"]=sf
+new_hash["Chicago"]=chicago
 end
