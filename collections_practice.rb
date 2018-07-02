@@ -59,9 +59,9 @@ def find_cool (cool_arry)
   new_arr = []
   # require "pry"
   # binding.pry
-  cool_arry.map do |name, temp|
-    temp.map do |temperature, level|
-      if level == "cool"
+  cool_arry.map do |person|
+    person.map do |name, temperature|
+      if temperature == "cool"
         new_arr << name
       end
     end
