@@ -80,11 +80,12 @@ chicago = []
     place do |place|
       if place.value = "NYC"
         nyc << name
+binding.pry
       elsif place.value = "SF"
         sf << name
       elsif place.value = "Chicago"
         chicago << name
-binding.pry
+# binding.pry
       end
     end
   end
