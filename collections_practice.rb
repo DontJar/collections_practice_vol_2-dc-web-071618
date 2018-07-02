@@ -41,7 +41,7 @@ end
 def merge_data (arr1, arr2)
 require "pry"
   new_arr = []
-  binding.pry
+binding.pry
   arr1.collect do |keys, values|
     new_hash1 = new_hash1[keys] = values
 end
