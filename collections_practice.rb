@@ -76,11 +76,12 @@ new_hash = {}
 nyc = []
 sf = []
 chicago = []
+
   school_hash do |name, place|
     place do |place|
       if place.value = "NYC"
         nyc << name
-binding.pry
+# binding.pry
       elsif place.value = "SF"
         sf << name
       elsif place.value = "Chicago"
