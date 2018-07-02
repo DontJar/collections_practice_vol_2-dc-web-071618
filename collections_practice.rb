@@ -85,15 +85,13 @@ school_hash do |name, place|
       sf << name
     elsif place.value = "Chicago"
       chicago << name
+    end
+  end
 
   # holiday_hash.map do |season, holiday|
   #   holiday.map do |event, supply|
   #     if supply.include?("BBQ")
   #       # arr << event
-      end
-    end
-  end
-  new_hash
-end
 
+  new_hash
 end
