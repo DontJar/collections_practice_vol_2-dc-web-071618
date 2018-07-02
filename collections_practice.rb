@@ -42,11 +42,13 @@ def merge_data (arr1, arr2)
 new_arr = []
 # require "pry"
 # binding.pry
-  arr1.map do |elmnt, name|
-    new_hash = name[data]
+  arr1.map do |elmnt|
+    name = elmnt[:first_name]
+    arr2.map do |attribute|
+      if attribute[name]
+        thing = attribute[name]
 
-    elmnt.map do |key, data|
-      key
+
     end
   end
 end
