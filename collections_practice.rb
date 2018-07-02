@@ -57,12 +57,12 @@ end
 
 def find_cool (cool_arry)
   new_arr = []
-  # holiday_hash.map do |season, holiday|
-  #   holiday.map do |event, supply|
-  #     if supply.include?("BBQ")
-  #       arr << event
-  #     end
-  #   end
-  # end
+  cool_arry.map do |name, temp|
+    temp.map do |temperature, level|
+      if level == "cool"
+        arr << name
+      end
+    end
+  end
   new_arr
 end
