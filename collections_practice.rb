@@ -68,3 +68,6 @@ def find_cool (cool_arry)
   end
   new_arr
 end
+
+def organize_schools
+end
