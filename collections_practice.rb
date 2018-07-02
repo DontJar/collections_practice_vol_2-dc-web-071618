@@ -84,14 +84,6 @@ school_hash do |name, place|
     elsif place.value == "SF"
       San_Fran << name
     else Chi_Town << name
-
-
-
-  holiday_hash.map do |season, holiday|
-    holiday.map do |event, supply|
-      if supply.include?("BBQ")
-        # arr << event
-      end
     end
   end
   new_hash
