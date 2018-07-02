@@ -56,7 +56,7 @@ new_arr = []
 end
 
 def find_cool (cool_arry)
-  # new_arr = []
+  new_arr = []
   # require "pry"
   # binding.pry
   cool_arry.map do |name, temp|
