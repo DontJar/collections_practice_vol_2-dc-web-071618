@@ -88,3 +88,4 @@ school_hash do |name, place|
     end
   end
 end
+end
