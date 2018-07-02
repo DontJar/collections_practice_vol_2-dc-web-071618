@@ -82,9 +82,9 @@ chicago = []
       if city.include?("NYC")
         nyc << name
 # binding.pry
-      elsif city = "SF"
+      elsif city.include?("SF")
         sf << name
-      elsif city = "Chicago"
+      elsif city.incude?("Chicago")
         chicago << name
 # binding.pry
       end
