@@ -84,7 +84,7 @@ chicago = []
 # binding.pry
       elsif city.include?("SF")
         sf << name
-      elsif city.incude?("Chicago")
+      elsif city.include?("Chicago")
         chicago << name
 # binding.pry
       end
