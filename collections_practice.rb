@@ -79,7 +79,7 @@ chicago = []
 
   school_hash.each do |name, place|
     place.each do |location, city|
-      if city = "NYC"
+      if city.include?("NYC")
         nyc << name
 # binding.pry
       elsif city = "SF"
