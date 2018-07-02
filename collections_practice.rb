@@ -46,9 +46,9 @@ new_arr = []
     name = elmnt[:first_name]
     arr2.map do |attribute|
       if attribute[name]
-        thing = attribute[name]
-        thing[:first_name] = name
-        new_arr << thing
+        person = attribute[name]
+        person[:first_name] = name
+        new_arr << person
       end
     end
   end
