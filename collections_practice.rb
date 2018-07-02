@@ -40,7 +40,6 @@ end
 
 def merge_data (arr1, arr2)
   new_arr = []
-binding.pry
   arr1.collect do |keys, values|
     new_hash1 = new_hash1[keys] = values
 end
