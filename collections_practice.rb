@@ -54,3 +54,8 @@ new_arr = []
   end
   new_arr
 end
+
+def find_cool
+  # require "pry"
+  # binding.pry
+end
