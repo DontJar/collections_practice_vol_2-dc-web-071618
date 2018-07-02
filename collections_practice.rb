@@ -79,14 +79,17 @@ chicago = []
 
 school_hash do |name, place|
   place do |place|
-    place.value = city
-      city << name
-      
-
-  holiday_hash.map do |season, holiday|
-    holiday.map do |event, supply|
-      if supply.include?("BBQ")
-        # arr << event
+    if place.value = "NYC"
+      nyc << name
+    elsif place.value = "SF"
+      sf << name
+    elsif place.value = "Chicago"
+      chicago << name
+    
+  # holiday_hash.map do |season, holiday|
+  #   holiday.map do |event, supply|
+  #     if supply.include?("BBQ")
+  #       # arr << event
       end
     end
   end
