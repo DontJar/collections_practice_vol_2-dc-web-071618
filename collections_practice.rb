@@ -39,8 +39,11 @@ def count_elements (array)
 end
 
 def merge_data (arr1, arr2)
+  new_arr = []
 # require "pry"
 # binding.pry
+arr1.collect do
+
 end
 
 # new_hash = Hash.new { |hash, key| hash[key] =  }
