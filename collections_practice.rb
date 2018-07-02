@@ -41,11 +41,12 @@ end
 def merge_data (arr1, arr2)
 # require "pry"
 # binding.pry
-x = 1
+# x = 1
 
 arr1.insert do |element|
   arr2.collect do |person, data|
     data
+  end
 end
 
 # new_hash = Hash.new { |hash, key| hash[key] =  }
