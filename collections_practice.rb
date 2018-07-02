@@ -55,7 +55,14 @@ new_arr = []
   new_arr
 end
 
-def find_cool
-  # require "pry"
-  # binding.pry
+def find_cool (cool_arry)
+  new_arr = []
+  # holiday_hash.map do |season, holiday|
+  #   holiday.map do |event, supply|
+  #     if supply.include?("BBQ")
+  #       arr << event
+  #     end
+  #   end
+  # end
+  new_arr
 end
