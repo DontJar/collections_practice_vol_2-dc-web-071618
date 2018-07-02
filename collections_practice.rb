@@ -41,7 +41,7 @@ end
 def merge_data (arr1, arr2)
   new_arr = []
   arr1.collect do |keys, values|
-    new_hash1 = new_hash1[keys] = values
+    new_hash1 = {new_hash1[keys] = values}
 end
 
 # new_hash = Hash.new { |hash, key| hash[key] =  }
