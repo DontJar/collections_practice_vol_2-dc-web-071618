@@ -31,7 +31,7 @@ end
 def count_elements (array)
   binding.pry
   new_arr = []
-  array.collect do |elmnt| 
+  array.collect do |elmnt|
     new_arr.push(elmnt, array.count(elmnt))
   end
     new_arr = new_arr.uniq
