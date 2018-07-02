@@ -86,7 +86,7 @@ chicago = []
         sf << name
       elsif city = "Chicago"
         chicago << name
-# binding.pry
+binding.pry
       end
     end
   end
