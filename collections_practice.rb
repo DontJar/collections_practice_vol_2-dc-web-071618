@@ -70,8 +70,8 @@ def find_cool (cool_array)
 end
 
 def organize_schools (school_hash)
-  # require "pry"
-  # binding.pry
+  require "pry"
+  binding.pry
 new_hash = {}
 New_York = []
 San_Fran = []
