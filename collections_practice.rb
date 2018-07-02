@@ -31,8 +31,6 @@ end
 def count_elements (array)
   new_arr = []
   array.collect do |elmnt|
-    [count] = array.count(elmnt)
-
     new_arr.push(elmnt, array.count(elmnt)) }
 
 
