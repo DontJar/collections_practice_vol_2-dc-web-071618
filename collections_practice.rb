@@ -29,7 +29,6 @@ def remove_non_strings(array)
 end
 
 def count_elements (array)
-require "pry"
   new_arr = []
   array.collect do |elmnt|
     new_hash = {name: elmnt[:name]}
@@ -38,7 +37,6 @@ require "pry"
   end
     new_arr = new_arr.uniq
 
-  # array.each_with_object(Hash.new(0)) { |name, count| count[name] += 1 }
 end
 
 
