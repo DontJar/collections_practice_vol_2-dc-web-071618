@@ -43,8 +43,8 @@ require "pry"
 binding.pry
 # x = 1
   arr1.insert do |element|
-    element[arr2.collect do |key, data|
-      element]
+    arr2.collect do |key, data|
+    
     end
   end
 end
