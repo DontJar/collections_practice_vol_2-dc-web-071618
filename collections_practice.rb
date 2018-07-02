@@ -55,11 +55,11 @@ new_arr = []
   new_arr
 end
 
-def find_cool (cool_arry)
+def find_cool (cool_array)
   new_arr = []
   # require "pry"
   # binding.pry
-  cool_arry.map do |person|
+  cool_array.map do |person|
     person.map do |name, temperature|
       if temperature == "cool"
         new_arr << person
@@ -69,5 +69,7 @@ def find_cool (cool_arry)
   new_arr
 end
 
-def organize_schools
+def organize_schools (school_array)
+  require "pry"
+  binding.pry
 end
