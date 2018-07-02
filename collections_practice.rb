@@ -32,7 +32,7 @@ def count_elements (array)
 require "pry"
   new_arr = []
   array.collect do |elmnt|
-    new_hash = elmnt
+    new_hash = {name: elmnt[:name]}
     new_hash[:count] = array.count(elmnt)
     new_arr.push(new_hash)
   end
