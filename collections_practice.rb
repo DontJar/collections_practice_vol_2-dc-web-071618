@@ -42,7 +42,7 @@ def merge_data (arr1, arr2)
 require "pry"
 binding.pry
 # x = 1
-  arr2.insert do |element|
+  arr1.each do |element|
     element.collect do |key, data|
 
     end
