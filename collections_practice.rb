@@ -52,4 +52,5 @@ new_arr = []
       end
     end
   end
+  new_arr
 end
