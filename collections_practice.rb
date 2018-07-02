@@ -91,4 +91,5 @@ chicago = []
 new_hash["NYC"]=nyc
 new_hash["SF"]=sf
 new_hash["Chicago"]=chicago
+new_hash
 end
