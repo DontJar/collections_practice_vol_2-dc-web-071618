@@ -70,8 +70,8 @@ def find_cool (cool_array)
 end
 
 def organize_schools (school_hash)
-  # require "pry"
-  # binding.pry
+  require "pry"
+  binding.pry
 new_hash = {}
 nyc = []
 sf = []
@@ -85,7 +85,7 @@ school_hash do |name, place|
       sf << name
     elsif place.value = "Chicago"
       chicago << name
-    
+
   # holiday_hash.map do |season, holiday|
   #   holiday.map do |event, supply|
   #     if supply.include?("BBQ")
