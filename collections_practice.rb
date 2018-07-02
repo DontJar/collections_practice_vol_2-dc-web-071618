@@ -72,4 +72,24 @@ end
 def organize_schools (school_hash)
   # require "pry"
   # binding.pry
+new_hash = {}
+NYC = []
+SF = []
+Chicago = []
+
+school_hash do |name, place|
+  place do |place|
+    if place.value == "NYC"
+
+
+  holiday_hash.map do |season, holiday|
+    holiday.map do |event, supply|
+      if supply.include?("BBQ")
+        # arr << event
+      end
+    end
+  end
+  new_hash
+end
+
 end
