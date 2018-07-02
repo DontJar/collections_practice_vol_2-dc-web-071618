@@ -87,11 +87,4 @@ school_hash do |name, place|
       chicago << name
     end
   end
-
-  # holiday_hash.map do |season, holiday|
-  #   holiday.map do |event, supply|
-  #     if supply.include?("BBQ")
-  #       # arr << event
-
-  new_hash
 end
