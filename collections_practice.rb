@@ -39,9 +39,9 @@ def count_elements (array)
 end
 
 def merge_data (arr1, arr2)
+  require "pry"
 # x = 1
   arr1.insert do |element|
-    require "pry"
     binding.pry
     arr2.collect do |person, data|
       data
