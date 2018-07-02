@@ -39,7 +39,7 @@ def count_elements (array)
 end
 
 def merge_data (arr1, arr2)
-new_arr ] []
+new_arr = []
 # require "pry"
 # binding.pry
 # x = 1
