@@ -78,16 +78,17 @@ sf = []
 chicago = []
 
   school_hash do |name, place|
-    place do |place|
-      if place.value = "NYC"
+    place do |location, city|
+      if city = "NYC"
         nyc << name
 # binding.pry
-      elsif place.value = "SF"
+      elsif city = "SF"
         sf << name
-      elsif place.value = "Chicago"
+      elsif city = "Chicago"
         chicago << name
 # binding.pry
       end
     end
   end
+
 end
