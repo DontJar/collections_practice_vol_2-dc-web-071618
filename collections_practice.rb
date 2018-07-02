@@ -47,8 +47,9 @@ new_arr = []
     arr2.map do |attribute|
       if attribute[name]
         thing = attribute[name]
-
-
+        thing[:first_name] = name
+        new_arr << thing
+      end
     end
   end
 end
