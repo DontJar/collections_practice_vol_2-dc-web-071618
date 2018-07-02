@@ -1,5 +1,3 @@
-require "pry"
-
 def begins_with_r(array)
   is_r = []
   array.collect do |word|
@@ -42,7 +40,7 @@ end
 
 def merge_data (arr1, arr2)
   new_arr = []
-  pry
+  binding.pry
   arr1.collect do |keys, values|
     new_hash1 = new_hash1[keys] = values
 end
