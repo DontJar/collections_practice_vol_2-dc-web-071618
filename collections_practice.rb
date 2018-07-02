@@ -60,7 +60,7 @@ def find_cool (cool_arry)
   cool_arry.map do |name, temp|
     temp.map do |temperature, level|
       if level == "cool"
-        arr << name
+        new_arr << name
       end
     end
   end
