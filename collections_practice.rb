@@ -39,7 +39,7 @@ def count_elements (array)
   #
   #   new_arr = new_arr.uniq
 
- hash.each_with_object(Hash.new(0)) { |name, count| count[name] += 1 }
+ array.each_with_object(Hash.new(0)) { |name, count| count[name] += 1 }
 
 end
 
