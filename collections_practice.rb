@@ -69,7 +69,7 @@ def find_cool (cool_array)
   new_arr
 end
 
-def organize_schools (school_array)
-  require "pry"
-  binding.pry
+def organize_schools (school_hash)
+  # require "pry"
+  # binding.pry
 end
