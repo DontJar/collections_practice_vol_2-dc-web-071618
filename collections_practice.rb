@@ -44,7 +44,7 @@ binding.pry
 # x = 1
   arr1.each do |element|
     element.collect do |key, data|
-
+      key
     end
   end
 end
