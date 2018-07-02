@@ -32,8 +32,10 @@ def count_elements (array)
 require "pry"
   new_arr = []
   array.collect do |elmnt|
-    binding.pry
-    new_arr.push(elmnt, array.count(elmnt))
+  
+    new_hash = {}
+    elmnt[:count] = array.count(elmnt)
+    new_arr.push(elmnt)
   end
     new_arr = new_arr.uniq
 
