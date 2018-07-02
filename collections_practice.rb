@@ -29,8 +29,11 @@ def remove_non_strings(array)
 end
 
 def count_elements (array)
+  binding.pry
   new_arr = []
-  array.collect { |elmnt| new_arr.push(elmnt, array.count(elmnt)) }
+  array.collect do |elmnt| 
+    new_arr.push(elmnt, array.count(elmnt))
+  end
     new_arr = new_arr.uniq
 
   # array.each_with_object(Hash.new(0)) { |name, count| count[name] += 1 }
