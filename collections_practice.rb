@@ -30,9 +30,9 @@ end
 
 def count_elements (array)
 require "pry"
-  binding.pry
   new_arr = []
   array.collect do |elmnt|
+    binding.pry
     new_arr.push(elmnt, array.count(elmnt))
   end
     new_arr = new_arr.uniq
